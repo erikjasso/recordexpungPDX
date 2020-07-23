@@ -13,7 +13,7 @@ jobs:
       CI: false
     steps:
       - name: Test
-         run: echo "Hello, world!"
+        run: echo "Hello, world!"
 
       # - name: Install dependencies
       #   run: |
