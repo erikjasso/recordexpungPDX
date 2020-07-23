@@ -2,8 +2,7 @@ name: deploy to prod
 
 on:
   release:
-    types:
-      - created
+    types: [created]
 
 # Copied from staging.yml.
 # GitHub does not support sharing steps between workflows yet.
