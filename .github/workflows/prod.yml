@@ -12,6 +12,7 @@ jobs:
     env:
       CI: false
     steps:
+      - name Test it
       run: echo "test"
 
       # - name: Install dependencies
