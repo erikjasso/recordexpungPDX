@@ -3,6 +3,10 @@ name: deploy to prod
 on:
   release:
     types: [created]
+  push:
+    branches: [1256-prod-github-workflow]
+    tags:
+      - v*
 
 # Copied from staging.yml.
 # GitHub does not support sharing steps between workflows yet.
